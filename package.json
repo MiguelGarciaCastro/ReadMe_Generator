@@ -4,7 +4,7 @@
   "description": "ReadMe Generator",
   "main": "index.js",
   "scripts": {
-    "test": "npm run"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.24.0",
     "inquirer": "^8.2.0",
     "node": "^17.3.0"
   }
